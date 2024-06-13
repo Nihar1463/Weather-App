@@ -1,0 +1,243 @@
+body {
+  background: url("./ph33.jpg");
+  background-size: cover;
+}
+.main1 .inputt {
+  height: 50px;
+  width: 280px;
+  margin-left: 38%;
+  margin-top: 1%;
+  font-size: 1.3vw;
+  padding-left: 1vw;
+  border-radius: 1vw;
+  border: 1px whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.main1 .btnn {
+  height: 50px;
+  width: 100px;
+  font-size: 1.3vw;
+  background-color: rgb(216, 142, 57);
+  color: rgb(8, 8, 8);
+  border-radius: 1vw;
+  margin-left: 1.2vw;
+  border: none;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+
+}
+.main1 .show {
+  /* height: 70vh; */
+  display: none;
+  width: 85vh;
+  /* background-color: rgb(203, 253, 255); */
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-left: 31%;
+  margin-top: 40px;
+  text-align: center;
+  padding: 1vw;
+  /* display: flex; */
+  /* justify-content: center; */
+  animation: move 5s 1;
+  background-size: cover;
+overflow: hidden;
+  /* background: rgba( 255, 255, 255, 0.1 ); */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+@keyframes move {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+   100%{
+    opacity: 1;
+    height: 78vh;
+  }
+}
+
+.main1 .show .cn1 {
+  display: flex;
+  /* background-color: rgb(211, 168, 26); */
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+}
+.main1 .show .cn1 .City_name {
+  width: 55%;
+  height: 7vh;
+  /* background-color: rgb(253, 129, 95); */
+  background-color: rgb(241, 205, 162);
+
+  /* padding: .4vw; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  /* font-size: 1.5vw; */
+  font-family: "Courier New", Courier, monospace;
+  /* margin-right: .5vw; */
+  /* border-radius: 10px; */
+  border-radius: 5px;
+}
+.main1 .show .cn1 .time {
+  font-size: 1.5vw;
+  height: 7vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  font-weight: bold;
+  background-color: rgba(169, 174, 110, 0.626);
+  border-radius: 5px;
+}
+.main1 .show .City_name .icon_loc {
+  font-size: 1.7vw;
+  width: 2vw;
+  height: 2vw;
+  margin-right: 0.5vw;
+}
+
+.show .bx2 {
+  display: flex;
+  width: 100%;
+  /* height: 7vh; */
+  /* background-color: aqua; */
+  margin-top: 1.5vw;
+  margin-top: 2vw;
+}
+.show .bx2 .temp1 {
+  /* width: 43%; */
+  height: 11vh;
+  background-color: rgba(171, 210, 210, 0.767);
+  margin-right: 2vw;
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 2.2vw;
+}
+.show .bx2 .temp1 .icon_temp {
+  font-size: 2.1vw;
+  /* width: 2vw; */
+  /* height: 2vw; */
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+}
+.show .bx2 .temp2 {
+  width: 55%;
+
+  background-color: rgb(180, 157, 201);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
+  font-size: 0.8vw;
+}
+.main1 .bx3 {
+  /* background-color: blue; */
+  width: 100%;
+  /* height: 7vh; */
+  margin-top: 2.2vw;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.main1 .bx3 .cont1 {
+  width: 50%;
+  /* background-color: brown; */
+  display: flex;
+  padding-left: 1vw;
+}
+.main1 .bx3 .cont1  .min_icn
+{
+/* background-color: #fff; */
+font-size: .9vw;
+margin-bottom: 1vw;
+
+}
+
+
+.main1 .bx3 .cont1 .temp_min {
+  width: 8.2vw;
+  height: 12vh;
+  background-color: rgba(255, 252, 216, 0.749);
+  border-radius: 12%;
+  margin-right: 1.2vw;
+  
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+.main1 .bx3 .cont2 {
+  background-color: rgba(246, 246, 246, 0.511);
+
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 5px;
+  /* font-size: 1vw; */
+}
+.main1 .bx4 {
+  width: 100%;
+  /* height: 18vh; */
+  /* background-color: aqua; */
+  margin-top: 2vw;
+  display: flex;
+  margin-left: 2.3vw;
+}
+.main1 .bx4 .card {
+  width: 10vw;
+  height: 10vw;
+  background-color: rgba(75, 75, 75, 0.628);
+  /* background-color: rgba(235, 23, 23, 0.308); */
+  margin-right: 3vw;
+  border-radius: 5px;
+}
+.main1 .bx4 .card h1 {
+  /* background-color: aliceblue; */
+  font-family: "Courier New", Courier, monospace;
+ 
+  font-size: 1.7vw;
+  margin-top: 0.5vw;
+}
+.main1 .bx4 .card .icnn {
+  display: flex;
+  /* background-color: rgb(54, 143, 221); */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+.main1 .bx4 .card .a12 {
+  /* background-color: red; */
+  /* width: vw; */
+  /* height: vw; */
+  /* display:flex;
+    justify-content: center; */
+  font-size: 2.5vw;
+  /* margin-top: 0.7vw; */
+  color: aliceblue;
+}
+.main1 .bx4 .card .info {
+  /* background-color: aqua; */
+  /* height: 4vw; */
+  /* width: 5vw; */
+
+  border-radius: 5px;
+  /* font-size: 1.3vw;   */
+}
